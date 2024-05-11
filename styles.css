@@ -117,10 +117,10 @@ body {
   box-shadow: 0 0 20px #A4B1CD;
 }
 
-.contact {
+.text-link {
   color: skyblue;
 }
 
-.contact:hover {
+.text-link:hover {
   color: cornflowerblue;
 }
