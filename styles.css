@@ -73,12 +73,16 @@ h6 {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
-  width: 100vw;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .flex {
   display: flex;
+  text-align: center;
   flex-wrap: wrap;
   gap: 2em;
   flex-direction: column;
@@ -86,15 +90,17 @@ body {
   align-items: center;
 }
 
-.core {
+/* .core {
   max-width: 960px;
-}
+} */
 
 .btn-link-grp {
   display: flex;
   justify-content: center;
   gap: 2em;
   margin: 20px;
+  max-width: 200px;
+  height: auto;
 }
 
 .btn-link {
@@ -102,14 +108,17 @@ body {
   border: 2px solid #A4B1CD;
   border-radius: 1em;
   color: #A4B1CD;
-  padding: 10px 25px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
   transition: box-shadow 0.5s ease-in-out;
+  max-width: 300px;
+  max-height: 150px;
 }
+
 
 .btn-link:hover {
   background-color: #bbff34;
